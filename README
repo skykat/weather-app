@@ -1,1 +1,7 @@
 Weather App README
+
+This is a sample app to show my coding style. 
+This is a weather app that queries OpenWeatherMap API: http://openweathermap.org/api
+It allows users to query the weather by city, zip, or GPS location and displays the last location when restarting the app.
+
+
