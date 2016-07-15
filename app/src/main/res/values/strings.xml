@@ -1,0 +1,24 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="sync_account_type">weatherapplication.interview.com</string>
+    <string name="content_authority">practice.interview.weatherapplication</string>
+
+    <string name="app_name">Weather Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_location_city">San Fracisco, CA</string>
+    <string name="default_location_zip">94043</string>
+    <string name="default_location_latlon">37.39,-122.08</string>
+    <string name="current_locations">Locations</string>
+    <string name="add_a_location">Add A Location</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_closed">Closed</string>
+    <string name="add_city_or_zip_title">Add a city or zip code to get the whether for your location</string>
+    <string name="instructions">Please choose one. If both are filled out, city will be used to get the weather *** Hint *** choose a warm city</string>
+    <string name="add_city">Add a city</string>
+    <string name="add_zip">Add a zip</string>
+    <string name="add">Add</string>
+    <string name="update_weather_location">Updating weather to your current location</string>
+    <string name="title_activity_add_location">Add Location</string>
+    <string name="default_description">Sunny</string>
+    <string name="format_temperature"><xliff:g id="temp">%1.0f</xliff:g>\u00B0</string>
+
+</resources>

@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/primary_margin">
+
+    <TextView
+        android:id="@+id/fragment_city_name"
+        style="@style/HeaderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/default_location_city" />
+
+    <TextView
+        android:id="@+id/fragment_description"
+        style="@style/BodyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_city_name"
+        android:layout_centerHorizontal="true"
+        android:text="@string/default_description" />
+
+    <ImageView
+        android:id="@+id/fragment_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_below="@id/fragment_description"
+        android:src="@drawable/sun_happy"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fragment_description"
+        android:layout_margin="@dimen/secondary_margin">
+
+        <TextView
+            android:id="@+id/fragment_temperature"
+            style="@style/BodyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:textSize="@dimen/fragment_temperature_text_size" />
+
+        <TextView
+            android:id="@+id/fragment_temperature_max"
+            style="@style/BodyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/fragment_temperature"
+            android:layout_toRightOf="@id/fragment_temperature"
+            android:text="95" />
+
+        <TextView
+            android:id="@+id/fragment_temperature_min"
+            style="@style/BodyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/fragment_temperature"
+            android:layout_toRightOf="@id/fragment_temperature"
+            android:text="88" />
+    </RelativeLayout>
+</RelativeLayout>
