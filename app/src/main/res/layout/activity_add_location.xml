@@ -65,7 +65,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="@dimen/primary_margin"
+            android:layout_margin="@dimen/activity_vertical_margin"
             android:background="@color/colorAccent"
             android:text="@string/add"
             android:textColor="@android:color/white" />
